@@ -43,6 +43,19 @@ $ cd api_svc_cfw
 $ bee run -downdoc=true -gendoc=true
 ```
 
+## Load some sample data
+```sh
+$ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ "fqdn": "www.google.com"}' 'http://localhost:8001/v1/host/'
+$ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ "name": "soheil", "ip":"1.2.3.4"}' 'http://localhost:8001/v1/client_name/'
+$ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ "fqdn": "webserver.acme.com"}' 'http://localhost:8001/v1/zone/'
+```
+
+## Read the sample data
+```sh
+$ curl -X GET --header 'Accept: application/json' 'http://localhost:8001/v1/client_name/'
+$ curl -X GET --header 'Accept: application/json' 'http://localhost:8002/v1/host/'
+$ curl -X GET --header 'Accept: application/json' 'http://localhost:8003/v1/zone/'
+```
 
 
 

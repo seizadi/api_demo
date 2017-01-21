@@ -1,0 +1,19 @@
+# Beego Binary
+api_svc_dns
+
+# Beego Swagger API Docs
+swagger/
+
+# Beego tmp
+lastupdate.tmp
+
+# locally required config files
+public/css/*.min.css
+
+# Editor junk
+*.sublime-workspace
+*.swp
+.idea/
+*.iml
+
+.DS_Store

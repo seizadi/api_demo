@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "github.com/Infoblox-CTO/api-gateway/demo/api_svc_threats/routers"
+	_ "github.com/seizadi/api_demo/api_svc_threats/routers"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"

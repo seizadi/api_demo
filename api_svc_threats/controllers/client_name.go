@@ -3,7 +3,7 @@ package controllers
 import (
 	"encoding/json"
 	"errors"
-	"github.com/Infoblox-CTO/api-gateway/demo/api_svc_threats/models"
+	"github.com/seizadi/api_demo/api_svc_threats/models"
 	"strconv"
 	"strings"
 

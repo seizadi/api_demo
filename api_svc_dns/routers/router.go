@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"github.com/Infoblox-CTO/api-gateway/demo/api_svc_dns/controllers"
+	"github.com/seizadi/api_demo/api_svc_dns/controllers"
 
 	"github.com/astaxie/beego"
 )
